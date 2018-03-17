@@ -1,0 +1,8 @@
+{
+    ".platform-win32 atom-workspace": {
+        "ctrl-alt-r": "adobe-script-runner:Adobe After Effects"
+    },
+    ".platform-darwin atom-workspace": {
+        "cmd-alt-r": "adobe-script-runner:Adobe After Effects"
+    }
+}

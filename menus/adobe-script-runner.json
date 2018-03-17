@@ -1,0 +1,51 @@
+{
+	"context-menu": {
+		"atom-text-editor": [{
+			"label": "Adobe Script Runner",
+			"submenu": [{
+				"label": "Adobe After Effects",
+				"command": "adobe-script-runner:Adobe After Effects"
+			}, {
+				"label": "Adobe Illustrator",
+				"command": "adobe-script-runner:Adobe Illustrator"
+			}, {
+				"label": "Adobe ExtendScript Toolkit",
+				"command": "adobe-script-runner:Adobe ExtendScript Toolkit"
+			}, {
+				"label": "Adobe InCopy",
+				"command": "adobe-script-runner:Adobe InCopy"
+			}, {
+				"label": "Adobe InDesign",
+				"command": "adobe-script-runner:Adobe InDesign"
+			}, {
+				"label": "Adobe Photoshop",
+				"command": "adobe-script-runner:Adobe Photoshop"
+			}]
+		}]
+	},
+	"menu": [{
+		"label": "Packages",
+		"submenu": [{
+			"label": "Adobe Script Runner",
+			"submenu": [{
+				"label": "Adobe After Effects",
+				"command": "adobe-script-runner:Adobe After Effects"
+			}, {
+				"label": "Adobe Illustrator",
+				"command": "adobe-script-runner:Adobe Illustrator"
+			}, {
+				"label": "Adobe ExtendScript Toolkit",
+				"command": "adobe-script-runner:Adobe ExtendScript Toolkit"
+			}, {
+				"label": "Adobe InCopy",
+				"command": "adobe-script-runner:Adobe InCopy"
+			}, {
+				"label": "Adobe InDesign",
+				"command": "adobe-script-runner:Adobe InDesign"
+			}, {
+				"label": "Adobe Photoshop",
+				"command": "adobe-script-runner:Adobe Photoshop"
+			}]
+		}]
+	}]
+}
