@@ -1,7 +1,8 @@
 # Adobe Script Runner
-Script runner for Adobe applications right from Atom.
 
-![Adobe Script Runner](resources/Adobe-Script-Runner.gif)
+Script runner for Adobe applications right from Atom. Extension also available for [VSCode](https://marketplace.visualstudio.com/items?itemName=renderTom.adobe-script-runner).
+
+![Adobe Script Runner](https://i.giphy.com/media/RkJJTeTth7HQdZjclG/source.gif)
 
 ## Supported applications
 
@@ -20,18 +21,19 @@ Extension will open host application first if it's not running, and then execute
 
 > Tip: You don't need to have file saved inside Atom. Extension will be able to run code from unsaved documents. Kaboom!
 
-Map keyboard shortcuts to execute script even faster - `Cmd+Alt+R` is bind to run script inside After Effects by default.
+Map keyboard shortcuts to execute script even faster - `Cmd+Alt+R` is bind to run script inside After Effects by default. Read how to customise keybindings [here](https://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings).
 
 **Note:** Contribution to support other Adobe applications is highly encouraged.
 
 ## Installation
 
-- ### ~~From Atom application~~
-  - Package is not publick yet, so this does not work.
+- ### From Atom application
+  - Open up the `Settings View` using `Cmd+,` on Mac or `Ctrl+,` on Windows,
+  - Click on the `Install` tab and type
 
 - ### From GitHub
-  - Download repository and unzip the package.
-  - Rename folder to `adobe-script-runner`.
+  - Download repository and unzip the package,
+  - Rename folder to `adobe-script-runner`,
   - Copy `adobe-script-runner` folder to `/Users/YOURUSER/.atom/packages` folder.
 
 ## In action
