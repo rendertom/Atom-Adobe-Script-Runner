@@ -1,73 +1,73 @@
 {
-	"name": "adobe-script-runner",
-	"displayName": "Adobe Script Runner",
-	"description": "Run Adobe scripts from Atom",
-	"version": "0.0.0",
-	"publisher": "renderTom",
-	"icon": "resources/icon.png",
-	"main": "./lib/extension.js",
-	"keywords": [
-		"Adobe",
-		"Estk",
-		"After Effects",
-		"Photoshop",
-		"InDesign"
-	],
-	"configSchema": {
-		"saveDirty": {
-			"order" : 1,
-			"title": "Save Dirty files",
-			"type": "boolean",
-			"default": true,
-			"description": "Automatically save dirty files before evaluating."
-		},
-		"runUntitled": {
-			"order" : 2,
-			"title": "Run Untitled files",
-			"type": "boolean",
-			"default": true,
-			"description": "Temporary file will be saved to destination defined in 'Path to Temp File' section."
-		},
-		"tempFile": {
-			"order" : 3,
-			"title": "Path to Temp File",
-			"type": "string",
-			"default": "~/.atom/packages/adobe-script-runner/Snippet.js",
-			"description": "Saves untitled document to temporary file. Used only if 'Run Untitled files' is enabled."
-		},
-		"winEstkExe": {
-			"order" : 4,
-			"title": "Path to ExtendScript Toolkit executable",
-			"type": "string",
-			"default": "C:/Program Files (x86)/Adobe/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.exe",
-			"description": "Windows only: Path to Adobe ExtendScript Toolkit executable (ExtendScript Toolkit.exe)."
-		},
-		"winAfterFxExe": {
-			"order" : 5,
-			"title": "Path to After Effects executable",
-			"type": "string",
-			"default": "C:/Program Files/Adobe/Adobe After Effects CC 2018/Support Files/AfterFX.exe",
-			"description": "Windows only: Path to Adobe After Effects executable (AfterFX.exe)."
-		},
-		"winIllustratorExe": {
-			"order" : 5,
-			"title": "Path to Illustrator executable",
-			"type": "string",
-			"default": "C:/Program Files/Adobe/Adobe Illustrator CC 2018/Support Files/Contents/Windows/Illustrator.exe",
-			"description": "Windows only: Path to Adobe Illustrator executable (Illustrator.exe)."
-		},
-		"winPhotoshopExe": {
-			"order" : 6,
-			"title": "Path to Photoshop executable",
-			"type": "string",
-			"default": "C:/Program Files/Adobe/Adobe Photoshop CC 2018/Photoshop.exe",
-			"description": "Windows only: Path to Adobe Photoshop executable (Photoshop.exe)."
-		}
-	},
-	"repository": "https://github.com/rendertom/Atom-Adobe-Script-Runner",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {}
+  "name": "adobe-script-runner",
+  "displayName": "Adobe Script Runner",
+  "description": "Run Adobe scripts from Atom",
+  "version": "0.1.0",
+  "publisher": "renderTom",
+  "icon": "resources/icon.png",
+  "main": "./lib/extension.js",
+  "keywords": [
+    "Adobe",
+    "Estk",
+    "After Effects",
+    "Photoshop",
+    "InDesign"
+  ],
+  "configSchema": {
+    "saveDirty": {
+      "order": 1,
+      "title": "Save Dirty files",
+      "type": "boolean",
+      "default": true,
+      "description": "Automatically save dirty files before evaluating."
+    },
+    "runUntitled": {
+      "order": 2,
+      "title": "Run Untitled files",
+      "type": "boolean",
+      "default": true,
+      "description": "Temporary file will be saved to destination defined in 'Path to Temp File' section."
+    },
+    "tempFile": {
+      "order": 3,
+      "title": "Path to Temp File",
+      "type": "string",
+      "default": "~/.atom/packages/adobe-script-runner/Snippet.js",
+      "description": "Saves untitled document to temporary file. Used only if 'Run Untitled files' is enabled."
+    },
+    "winEstkExe": {
+      "order": 4,
+      "title": "Path to ExtendScript Toolkit executable",
+      "type": "string",
+      "default": "C:/Program Files (x86)/Adobe/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.exe",
+      "description": "Windows only: Path to Adobe ExtendScript Toolkit executable (ExtendScript Toolkit.exe)."
+    },
+    "winAfterFxExe": {
+      "order": 5,
+      "title": "Path to After Effects executable",
+      "type": "string",
+      "default": "C:/Program Files/Adobe/Adobe After Effects CC 2018/Support Files/AfterFX.exe",
+      "description": "Windows only: Path to Adobe After Effects executable (AfterFX.exe)."
+    },
+    "winIllustratorExe": {
+      "order": 5,
+      "title": "Path to Illustrator executable",
+      "type": "string",
+      "default": "C:/Program Files/Adobe/Adobe Illustrator CC 2018/Support Files/Contents/Windows/Illustrator.exe",
+      "description": "Windows only: Path to Adobe Illustrator executable (Illustrator.exe)."
+    },
+    "winPhotoshopExe": {
+      "order": 6,
+      "title": "Path to Photoshop executable",
+      "type": "string",
+      "default": "C:/Program Files/Adobe/Adobe Photoshop CC 2018/Photoshop.exe",
+      "description": "Windows only: Path to Adobe Photoshop executable (Photoshop.exe)."
+    }
+  },
+  "repository": "https://github.com/rendertom/Atom-Adobe-Script-Runner",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
