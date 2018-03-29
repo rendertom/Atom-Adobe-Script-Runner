@@ -2,7 +2,7 @@
 
 Script runner for Adobe applications right from Atom. Extension also available for [VSCode](https://marketplace.visualstudio.com/items?itemName=renderTom.adobe-script-runner).
 
-![Adobe Script Runner](https://media.giphy.com/media/RkJJTeTth7HQdZjclG/source.gif)
+![Adobe Script Runner](https://media.giphy.com/media/28fZD4FBcqK3DeYy4u/giphy.gif)
 
 ## Supported applications
 
