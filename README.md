@@ -29,7 +29,7 @@ Map keyboard shortcuts to execute script even faster - `Cmd+Alt+R` is bind to ru
 
 - ### From Atom application
   - Open up the `Settings View` using `Cmd+,` on Mac or `Ctrl+,` on Windows,
-  - Click on the `Install` tab and type
+  - Click on the `Install` tab and type `Adobe Script Runner`.
 
 - ### From GitHub
   - Download repository and unzip the package,
