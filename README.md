@@ -46,9 +46,9 @@ Map keyboard shortcuts to execute script even faster - `Cmd+Alt+R` is bind to ru
 
 Click `Cmd+,` on Mac or `Ctrl+,` on Windows and navigate to `Packages > Adobe Script Runner` to modify settings. Extension exposes the following settings:
 
-- `Save Dirty files`: toggle to automatically save dirty files before evaluating.
-- `Run Untitles files`: toggle to save temporary file to destination defined in `Path to Temp File` section.
-- `Path to Temp File`: saves untitled document to temporary file. Used only if `Run Untitled files` is enabled.
+- `Save Dirty Document`: toggle to automatically save dirty document before evaluating.
+- `Run Untitled Document`: toggle to evaluate untitled document. Note: document has to be saved prior to evaluating, therefore check `Path to Temp File` option to set temporary file path.
+- `Path to Temp File`: path to a temporary file where untitled documents are being saved prior to evaluating. Used only when `Run Untitled Document` is set to `true`.
 
 **For Windows users only:**
 

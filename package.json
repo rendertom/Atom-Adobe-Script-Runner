@@ -16,24 +16,24 @@
 	"configSchema": {
 		"saveDirty": {
 			"order" : 1,
-			"title": "Save Dirty files",
+			"title": "Save Dirty Document",
 			"type": "boolean",
 			"default": true,
-			"description": "Automatically save dirty files before evaluating."
+			"description": "Automatically save dirty document before evaluating."
 		},
 		"runUntitled": {
 			"order" : 2,
-			"title": "Run Untitled files",
+			"title": "Run Untitled Document",
 			"type": "boolean",
 			"default": true,
-			"description": "Temporary file will be saved to destination defined in 'Path to Temp File' section."
+			"description": "Evaluates untitled document.\nNote: document has to be saved prior to evaluating, therefore check 'Path to Temp File' option to set temporary file path."
 		},
 		"tempFile": {
 			"order" : 3,
 			"title": "Path to Temp File",
 			"type": "string",
 			"default": "~/.atom/packages/adobe-script-runner/Snippet.js",
-			"description": "Saves untitled document to temporary file. Used only if 'Run Untitled files' is enabled."
+			"description": "Path to a temporary file where untitled documents are being saved prior to evaluating. Used only when 'Run Untitled Document' is set to 'true'."
 		},
 		"winEstkExe": {
 			"order" : 4,
