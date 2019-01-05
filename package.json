@@ -2,7 +2,7 @@
 	"name": "adobe-script-runner",
 	"displayName": "Adobe Script Runner",
 	"description": "Run Adobe scripts from Atom",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"publisher": "renderTom",
 	"icon": "resources/icon.png",
 	"main": "./lib/extension.js",
@@ -15,49 +15,49 @@
 	],
 	"configSchema": {
 		"saveDirty": {
-			"order" : 1,
+			"order": 1,
 			"title": "Save Dirty Document",
 			"type": "boolean",
 			"default": true,
 			"description": "Automatically save dirty document before evaluating."
 		},
 		"runUntitled": {
-			"order" : 2,
+			"order": 2,
 			"title": "Run Untitled Document",
 			"type": "boolean",
 			"default": true,
 			"description": "Evaluates untitled document.\nNote: document has to be saved prior to evaluating, therefore check 'Path to Temp File' option to set temporary file path."
 		},
 		"tempFile": {
-			"order" : 3,
+			"order": 3,
 			"title": "Path to Temp File",
 			"type": "string",
 			"default": "~/.atom/packages/adobe-script-runner/Snippet.js",
 			"description": "Path to a temporary file where untitled documents are being saved prior to evaluating. Used only when 'Run Untitled Document' is set to 'true'."
 		},
 		"winEstkExe": {
-			"order" : 4,
+			"order": 4,
 			"title": "Path to ExtendScript Toolkit executable",
 			"type": "string",
 			"default": "C:/Program Files (x86)/Adobe/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.exe",
 			"description": "Windows only: Path to Adobe ExtendScript Toolkit executable (ExtendScript Toolkit.exe)."
 		},
 		"winAfterFxExe": {
-			"order" : 5,
+			"order": 5,
 			"title": "Path to After Effects executable",
 			"type": "string",
 			"default": "C:/Program Files/Adobe/Adobe After Effects CC 2019/Support Files/AfterFX.exe",
 			"description": "Windows only: Path to Adobe After Effects executable (AfterFX.exe)."
 		},
 		"winIllustratorExe": {
-			"order" : 5,
+			"order": 5,
 			"title": "Path to Illustrator executable",
 			"type": "string",
 			"default": "C:/Program Files/Adobe/Adobe Illustrator CC 2019/Support Files/Contents/Windows/Illustrator.exe",
 			"description": "Windows only: Path to Adobe Illustrator executable (Illustrator.exe)."
 		},
 		"winPhotoshopExe": {
-			"order" : 6,
+			"order": 6,
 			"title": "Path to Photoshop executable",
 			"type": "string",
 			"default": "C:/Program Files/Adobe/Adobe Photoshop CC 2019/Photoshop.exe",
